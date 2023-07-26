@@ -145,6 +145,7 @@ Future<List> senatorInfo(int index, Web3Client ethClient) async {
   List<dynamic> result = await ask('senatorInfo', [BigInt.from(index)], ethClient);
   return result;
 }
+
 Future<List> voterInfo(int index, Web3Client ethClient) async {
   List<dynamic> result = await ask('voterInfo', [BigInt.from(index)], ethClient);
   return result;
@@ -251,8 +252,6 @@ Future<List<dynamic>> ask(String funcName, List<dynamic> args, Web3Client ethCli
   final result = ethClient.call(contract: contract, function: ethFunction, params: args);
   return result;
 }
-
-
 
 
 

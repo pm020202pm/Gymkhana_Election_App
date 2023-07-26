@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:gymkhana/pages/result.dart';
 import 'package:http/http.dart';
 import 'package:web3dart/web3dart.dart';
+import '../functions.dart';
 import '../widgets/button.dart';
 import 'admin_login.dart';
 import 'voter_login.dart';
@@ -26,6 +27,8 @@ class _HomeState extends State<Home> {
     ethClient = Web3Client(infura_url, httpClient!);
     super.initState();
   }
+
+
 
   @override
   Widget build(BuildContext context) {
@@ -52,7 +55,7 @@ class _HomeState extends State<Home> {
                 fontWeight: FontWeight.w700,
                 textColor: Colors.green[800],
                 buttonBgColor: Colors.green[200],
-                onPressed: (){
+                onPressed: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) => Login()));
                 },
                 height: 60, width: 200, borderRadius: 15
@@ -64,7 +67,7 @@ class _HomeState extends State<Home> {
                 fontWeight: FontWeight.w700,
                 textColor: Colors.purple[400],
                 buttonBgColor: Colors.purple[100],
-                onPressed: (){
+                onPressed: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) => Result(ethClient: ethClient!)));
                 },
                 height: 60, width: 200, borderRadius: 15

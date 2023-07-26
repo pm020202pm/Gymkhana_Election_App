@@ -21,13 +21,13 @@ class _LoginState extends State<Login> {
   final formKey = GlobalKey<FormState>();
   TextEditingController address = TextEditingController();
   TextEditingController key = TextEditingController();
+  bool isArrayed = false;
 
   void userNotRegisteredDialog() {
     showDialog(
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          // title: Text(''),
           content: const Text('You are not registered as a voter.'),
           actions: <Widget>[
             TextButton(
@@ -41,6 +41,10 @@ class _LoginState extends State<Login> {
       },
     );
   }
+
+
+
+
 
   @override
   void initState() {

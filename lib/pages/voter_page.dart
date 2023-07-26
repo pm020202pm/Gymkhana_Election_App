@@ -20,202 +20,214 @@ class _ElectionInfoState extends State<ElectionInfo> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            const SizedBox(height: 80,),
+            const SizedBox(height: 70,),
             Text('ELECTION', style: TextStyle(fontWeight: FontWeight.w600, color: Colors.grey[800], fontSize: 30),),
             const SizedBox(height: 15,),
             const Divider(thickness: 2,),
-            FutureBuilder<List>(
-                future: getPresidentNum(widget.ethClient),
-                builder: (context, snapshot) {
-                  if (snapshot.connectionState ==
-                      ConnectionState.waiting) {
-                    return const Center(
-                      child: CircularProgressIndicator(),
-                    );
-                  }
-                  return Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Container(
-                      alignment: Alignment.center,
-                      height: 60,
-                      width: double.infinity,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(15),
-                          color: Colors.grey[200]
-                      ),
-                      child: Padding(
-                        padding: const EdgeInsets.fromLTRB(30, 7, 30, 7),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Text('TOTAL PRESIDENT : ', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.green[400]),),
-                            Text(snapshot.data![0].toString(), style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.purple[400]),),
-                          ],
-                        ),
-                      ),
-                    ),
-                  );
-                }),
-            FutureBuilder<List>(
-                future: getGNSNum(widget.ethClient),
-                builder: (context, snapshot) {
-                  if (snapshot.connectionState ==
-                      ConnectionState.waiting) {
-                    return const Center(
-                      child: CircularProgressIndicator(),
-                    );
-                  }
-                  return Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Container(
-                      alignment: Alignment.center,
-                      height: 60,
-                      width: double.infinity,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(15),
-                          color: Colors.grey[200]
-                      ),
-                      child: Padding(
-                        padding: const EdgeInsets.fromLTRB(30, 7, 30, 7),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Text('TOTAL GNS : ', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.green[400]),),
-                            Text(snapshot.data![0].toString(), style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.purple[400]),),
-                          ],
-                        ),
-                      ),
-                    ),
-                  );
-                }),
-            FutureBuilder<List>(
-                future: getSNTNum(widget.ethClient),
-                builder: (context, snapshot) {
-                  if (snapshot.connectionState ==
-                      ConnectionState.waiting) {
-                    return const Center(
-                      child: CircularProgressIndicator(),
-                    );
-                  }
-                  return Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Container(
-                      alignment: Alignment.center,
-                      height: 60,
-                      width: double.infinity,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(15),
-                          color: Colors.grey[200]
-                      ),
-                      child: Padding(
-                        padding: const EdgeInsets.fromLTRB(30, 7, 30, 7),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Text('TOTAL SNT : ', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.green[400]),),
-                            Text(snapshot.data![0].toString(), style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.purple[400]),),
-                          ],
-                        ),
-                      ),
-                    ),
-                  );
-                }),
-            FutureBuilder<List>(
-                future: getMNCNum(widget.ethClient),
-                builder: (context, snapshot) {
-                  if (snapshot.connectionState ==
-                      ConnectionState.waiting) {
-                    return const Center(
-                      child: CircularProgressIndicator(),
-                    );
-                  }
-                  return Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Container(
-                      alignment: Alignment.center,
-                      height: 60,
-                      width: double.infinity,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(15),
-                          color: Colors.grey[200]
-                      ),
-                      child: Padding(
-                        padding: const EdgeInsets.fromLTRB(30, 7, 30, 7),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Text('TOTAL MNC : ', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.green[400]),),
-                            Text(snapshot.data![0].toString(), style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.purple[400]),),
-                          ],
-                        ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(18),
+                  color: Colors.blue[100]
+                ),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          FutureBuilder<List>(
+                              future: getPresidentNum(widget.ethClient),
+                              builder: (context, snapshot) {
+                                if (snapshot.connectionState ==
+                                    ConnectionState.waiting) {
+                                  return const Center(
+                                    child: CircularProgressIndicator(),
+                                  );
+                                }
+                                return Container(
+                                  alignment: Alignment.center,
+                                  height: 40,
+                                  width: 130,
+                                  decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(15),
+                                      color: Colors.grey[200]
+                                  ),
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8),
+                                    child: Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text('PRESIDENT : ', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600, color: Colors.green[400]),),
+                                        Text(snapshot.data![0].toString(), style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600, color: Colors.purple[400]),),
+                                      ],
+                                    ),
+                                  ),
+                                );
+                              }),
+                          FutureBuilder<List>(
+                              future: getGNSNum(widget.ethClient),
+                              builder: (context, snapshot) {
+                                if (snapshot.connectionState ==
+                                    ConnectionState.waiting) {
+                                  return const Center(
+                                    child: CircularProgressIndicator(),
+                                  );
+                                }
+                                return Container(
+                                  alignment: Alignment.center,
+                                  height: 40,
+                                  width: 80,
+                                  decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(15),
+                                      color: Colors.grey[200]
+                                  ),
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8),
+                                    child: Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text('GnS : ', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600, color: Colors.green[400]),),
+                                        Text(snapshot.data![0].toString(), style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600, color: Colors.purple[400]),),
+                                      ],
+                                    ),
+                                  ),
+                                );
+                              }),
+                          FutureBuilder<List>(
+                              future: getSNTNum(widget.ethClient),
+                              builder: (context, snapshot) {
+                                if (snapshot.connectionState ==
+                                    ConnectionState.waiting) {
+                                  return const Center(
+                                    child: CircularProgressIndicator(),
+                                  );
+                                }
+                                return Container(
+                                  alignment: Alignment.center,
+                                  height: 40,
+                                  width: 80,
+                                  decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(15),
+                                      color: Colors.grey[200]
+                                  ),
+                                  child: Padding(
+                                    padding: const EdgeInsets.fromLTRB(8, 8, 8, 8),
+                                    child: Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text('SnT : ', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600, color: Colors.green[400]),),
+                                        Text(snapshot.data![0].toString(), style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600, color: Colors.purple[400]),),
+                                      ],
+                                    ),
+                                  ),
+                                );
+                              }),
+                        ],
                       ),
                     ),
-                  );
-                }),
-            FutureBuilder<List>(
-                future: getANCNum(widget.ethClient),
-                builder: (context, snapshot) {
-                  if (snapshot.connectionState ==
-                      ConnectionState.waiting) {
-                    return const Center(
-                      child: CircularProgressIndicator(),
-                    );
-                  }
-                  return Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Container(
-                      alignment: Alignment.center,
-                      height: 60,
-                      width: double.infinity,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(15),
-                          color: Colors.grey[200]
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          FutureBuilder<List>(
+                              future: getSenatorNum(widget.ethClient),
+                              builder: (context, snapshot) {
+                                if (snapshot.connectionState ==
+                                    ConnectionState.waiting) {
+                                  return const Center(
+                                    child: CircularProgressIndicator(),
+                                  );
+                                }
+                                return Container(
+                                  alignment: Alignment.center,
+                                  height: 40,
+                                  width: 130,
+                                  decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(15),
+                                      color: Colors.grey[200]
+                                  ),
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8),
+                                    child: Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text('SENATORS: ', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600, color: Colors.green[400]),),
+                                        Text(snapshot.data![0].toString(), style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600, color: Colors.purple[400]),),
+                                      ],
+                                    ),
+                                  ),
+                                );
+                              }),
+                          FutureBuilder<List>(
+                              future: getMNCNum(widget.ethClient),
+                              builder: (context, snapshot) {
+                                if (snapshot.connectionState ==
+                                    ConnectionState.waiting) {
+                                  return const Center(
+                                    child: CircularProgressIndicator(),
+                                  );
+                                }
+                                return Container(
+                                  alignment: Alignment.center,
+                                  height: 40,
+                                  width: 80,
+                                  decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(15),
+                                      color: Colors.grey[200]
+                                  ),
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8),
+                                    child: Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text('MnC : ', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600, color: Colors.green[400]),),
+                                        Text(snapshot.data![0].toString(), style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600, color: Colors.purple[400]),),
+                                      ],
+                                    ),
+                                  ),
+                                );
+                              }),
+                          FutureBuilder<List>(
+                              future: getANCNum(widget.ethClient),
+                              builder: (context, snapshot) {
+                                if (snapshot.connectionState ==
+                                    ConnectionState.waiting) {
+                                  return const Center(
+                                    child: CircularProgressIndicator(),
+                                  );
+                                }
+                                return Container(
+                                  alignment: Alignment.center,
+                                  height: 40,
+                                  width: 80,
+                                  decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(15),
+                                      color: Colors.grey[200]
+                                  ),
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8),
+                                    child: Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text('AnC : ', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600, color: Colors.green[400]),),
+                                        Text(snapshot.data![0].toString(), style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600, color: Colors.purple[400]),),
+                                      ],
+                                    ),
+                                  ),
+                                );
+                              }),
+                        ],
                       ),
-                      child: Padding(
-                        padding: const EdgeInsets.fromLTRB(30, 7, 30, 7),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Text('TOTAL ANC : ', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.green[400]),),
-                            Text(snapshot.data![0].toString(), style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.purple[400]),),
-                          ],
-                        ),
-                      ),
-                    ),
-                  );
-                }),
-            FutureBuilder<List>(
-                future: getSenatorNum(widget.ethClient),
-                builder: (context, snapshot) {
-                  if (snapshot.connectionState ==
-                      ConnectionState.waiting) {
-                    return const Center(
-                      child: CircularProgressIndicator(),
-                    );
-                  }
-                  return Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Container(
-                      alignment: Alignment.center,
-                      height: 60,
-                      width: double.infinity,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(15),
-                          color: Colors.grey[200]
-                      ),
-                      child: Padding(
-                        padding: const EdgeInsets.fromLTRB(30, 7, 30, 7),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Text('TOTAL SENATORS: ', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.green[400]),),
-                            Text(snapshot.data![0].toString(), style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.purple[400]),),
-                          ],
-                        ),
-                      ),
-                    ),
-                  );
-                }),
+                    )
+                  ],
+                ),
+              ),
+            ),
             FutureBuilder<List>(
                 future: getTotalVotes(widget.ethClient),
                 builder: (context, snapshot) {
@@ -229,18 +241,18 @@ class _ElectionInfoState extends State<ElectionInfo> {
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
                       alignment: Alignment.center,
-                      height: 60,
+                      height: 50,
                       width: double.infinity,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(15),
-                          color: Colors.grey[200]
+                          color: Colors.pink[50]
                       ),
                       child: Padding(
                         padding: const EdgeInsets.fromLTRB(30, 7, 30, 7),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Text('TOTAL VOTES CASTED : ', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.green[400]),),
+                            Text('TOTAL VOTES CASTED  : ', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.green[400]),),
                             Text(snapshot.data![0].toString(), style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.purple[400]),),
                           ],
                         ),
@@ -251,7 +263,18 @@ class _ElectionInfoState extends State<ElectionInfo> {
             const SizedBox(height: 5,),
             const Divider(thickness: 2,),
             const SizedBox(height: 10,),
-            const Text('PRESIDENT CANDIDATES'),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 5, 16, 0),
+              child: Container(
+                alignment: Alignment.center,
+                height: 40,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(30),
+                    color: Colors.grey[200]
+                  ),
+                  child: const Text('PRESIDENT CANDIDATES')),
+            ),
             FutureBuilder<List>(
               future: getPresidentNum(widget.ethClient),
               builder: (context, snapshot) {
@@ -304,8 +327,18 @@ class _ElectionInfoState extends State<ElectionInfo> {
                 }
               },
             ),
-            const SizedBox(height: 5,),
-            const Text('GNS SECRETARY CANDIDATES'),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 25, 16, 0),
+              child: Container(
+                  alignment: Alignment.center,
+                  height: 40,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      color: Colors.grey[200]
+                  ),
+                  child: const Text('GnS SECRETARY CANDIDATES')),
+            ),
             FutureBuilder<List>(
               future: getGNSNum(widget.ethClient),
               builder: (context, snapshot) {
@@ -358,8 +391,18 @@ class _ElectionInfoState extends State<ElectionInfo> {
                 }
               },
             ),
-            const SizedBox(height: 5,),
-            const Text('SNT SECRETARY CANDIDATES'),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 25, 16, 0),
+              child: Container(
+                  alignment: Alignment.center,
+                  height: 40,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      color: Colors.grey[200]
+                  ),
+                  child: const Text('SnT SECRETARY CANDIDATES')),
+            ),
             FutureBuilder<List>(
               future: getSNTNum(widget.ethClient),
               builder: (context, snapshot) {
@@ -412,8 +455,18 @@ class _ElectionInfoState extends State<ElectionInfo> {
                 }
               },
             ),
-            const SizedBox(height: 5,),
-            const Text('MNC SECRETARY CANDIDATES'),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 25, 16, 0),
+              child: Container(
+                  alignment: Alignment.center,
+                  height: 40,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      color: Colors.grey[200]
+                  ),
+                  child: const Text('MnC SECRETARY CANDIDATES')),
+            ),
             FutureBuilder<List>(
               future: getMNCNum(widget.ethClient),
               builder: (context, snapshot) {
@@ -466,8 +519,18 @@ class _ElectionInfoState extends State<ElectionInfo> {
                 }
               },
             ),
-            const SizedBox(height: 5,),
-            const Text('ANC SECRETARY CANDIDATES'),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 25, 16, 0),
+              child: Container(
+                  alignment: Alignment.center,
+                  height: 40,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      color: Colors.grey[200]
+                  ),
+                  child: const Text('AnC SECRETARY CANDIDATES')),
+            ),
             FutureBuilder<List>(
               future: getANCNum(widget.ethClient),
               builder: (context, snapshot) {
@@ -520,8 +583,18 @@ class _ElectionInfoState extends State<ElectionInfo> {
                 }
               },
             ),
-            const SizedBox(height: 5,),
-            const Text('SENATOR CANDIDATES'),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 25, 16, 0),
+              child: Container(
+                  alignment: Alignment.center,
+                  height: 40,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      color: Colors.grey[200]
+                  ),
+                  child: const Text('SENATOR CANDIDATES')),
+            ),
             FutureBuilder<List>(
               future: getSenatorNum(widget.ethClient),
               builder: (context, snapshot) {

@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:web3dart/web3dart.dart';
 import 'package:http/http.dart';
@@ -15,8 +16,14 @@ class AdminLogin extends StatefulWidget {
 class _AdminLoginState extends State<AdminLogin> {
   Client? httpClient;
   Web3Client? ethClient;
+  TextEditingController contractAddress = TextEditingController();
   TextEditingController adminKey = TextEditingController();
   late String privateKey;
+
+  void updateContractAddress() async {
+    DocumentReference documentRef = FirebaseFirestore.instance.collection('address').doc('contract');
+    await documentRef.update({'address': contractAddress.text});
+  }
 
 
   void userNotRegisteredDialog() {
@@ -55,6 +62,8 @@ class _AdminLoginState extends State<AdminLogin> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              CustomTextField(controller: contractAddress, obscureText: false, boxHeight: 60, labelText: 'Contract Address',),
+              const SizedBox(height: 20,),
               CustomTextField(controller: adminKey, obscureText: true, boxHeight: 60, labelText: 'Owner Key',),
               const SizedBox(height: 40,),
               Button(
@@ -69,6 +78,7 @@ class _AdminLoginState extends State<AdminLogin> {
                     if(privateKey != ''){
                       if(privateKey == owner_private_key){
                         Navigator.push(context, MaterialPageRoute(builder: (context)=> AdminPage()));
+                        updateContractAddress();
                       }
                       else{
                         userNotRegisteredDialog();

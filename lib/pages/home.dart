@@ -1,4 +1,5 @@
 
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:gymkhana/pages/result.dart';
 import 'package:http/http.dart';
@@ -25,9 +26,22 @@ class _HomeState extends State<Home> {
   void initState() {
     httpClient = Client();
     ethClient = Web3Client(infura_url, httpClient!);
+    getContractAddress();
     super.initState();
   }
 
+  Future<void> getContractAddress() async {
+    DocumentReference documentRef = FirebaseFirestore.instance.collection('address').doc('contract');
+    try {
+      DocumentSnapshot snapshot = await documentRef.get();
+      setState(() {
+        contractAddress = snapshot.get('address');
+      });
+      print('Contract Address is $contractAddress') ;
+    } catch (e) {
+      print('Error fetching contract address: $e');
+    }
+  }
 
 
   @override
@@ -43,7 +57,8 @@ class _HomeState extends State<Home> {
                 fontWeight: FontWeight.w700,
                 textColor: Colors.blue[800],
                 buttonBgColor: Colors.blue[200],
-                onPressed: (){
+                onPressed: () async {
+                  await getContractAddress();
                   Navigator.push(context, MaterialPageRoute(builder: (context) => AdminLogin()));
                 },
                 height: 60, width: 200, borderRadius: 15
@@ -55,7 +70,8 @@ class _HomeState extends State<Home> {
                 fontWeight: FontWeight.w700,
                 textColor: Colors.green[800],
                 buttonBgColor: Colors.green[200],
-                onPressed: () {
+                onPressed: () async {
+                  await getContractAddress();
                   Navigator.push(context, MaterialPageRoute(builder: (context) => Login()));
                 },
                 height: 60, width: 200, borderRadius: 15
@@ -67,7 +83,8 @@ class _HomeState extends State<Home> {
                 fontWeight: FontWeight.w700,
                 textColor: Colors.purple[400],
                 buttonBgColor: Colors.purple[100],
-                onPressed: () {
+                onPressed: () async {
+                  await getContractAddress();
                   Navigator.push(context, MaterialPageRoute(builder: (context) => Result(ethClient: ethClient!)));
                 },
                 height: 60, width: 200, borderRadius: 15

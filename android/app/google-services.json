@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "21088702647",
+    "project_id": "gymkhanaelection-cecef",
+    "storage_bucket": "gymkhanaelection-cecef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21088702647:android:31a3ea9a41a8b60e647d32",
+        "android_client_info": {
+          "package_name": "com.example.gymkhana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21088702647-7n93a34d1g5lco5c1acoq6cfrktvkuh7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC70ssI2rsrZWClCCLbVynVxvTO68dDUlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21088702647-7n93a34d1g5lco5c1acoq6cfrktvkuh7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,5 @@
 
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:gymkhana/pages/voter_page.dart';
 import 'package:web3dart/web3dart.dart';
@@ -41,10 +42,6 @@ class _LoginState extends State<Login> {
       },
     );
   }
-
-
-
-
 
   @override
   void initState() {

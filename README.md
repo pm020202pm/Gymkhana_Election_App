@@ -33,12 +33,13 @@ It is divided in three main Pages:
 <img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/34ce1233-1196-4f29-97b3-3c403e6b279b" width="25%" height="25%">
 <img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/168d801f-c338-47f0-8379-d42fff0cec5a" width="25%" height="25%">
 <img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/dba1ac46-cbe8-4825-9234-f31d4e7bca11" width="25%" height="25%">
+<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/01431625-d9bc-416e-bf8c-7a54c6bbd17b" width="25%" height="25%">
 <img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/2f4148f9-2603-4339-8728-8708f739d81f" width="25%" height="25%">
 <img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/b0ade89a-910b-4863-bda4-f6aace980c74" width="25%" height="25%">
 <img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/f9f7cd00-0c1a-4986-ac6f-ca8a0b759148" width="25%" height="25%">
 <img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/afb4a5e8-28bf-49f3-b9e2-7d29da2b9069" width="25%" height="25%">
 <img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/38900a9e-e9c7-4ce5-8441-f4cb06f4c874" width="25%" height="25%">
-<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/01431625-d9bc-416e-bf8c-7a54c6bbd17b" width="25%" height="25%">
+
 <img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/22a96403-5761-423c-899e-32112becf5da" width="25%" height="25%">
 <img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/635d9bae-53f1-4546-811f-88ab38e4abee" width="25%" height="25%">
 

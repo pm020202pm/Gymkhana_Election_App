@@ -30,13 +30,13 @@ It is divided in three main Pages:
 <br>
 ## STEP BY STEP GUIDE TO CONDUCT GYMKHANA ELECTION
 
-# ROLE OF ADMIN :
+## ROLE OF ADMIN :
 1) START ELECTION : The Admin gives a name and duration of the election.<br>
 3) REGISTERING CANDIDATES : The Admin registers every candidate writing his name and then tapping on either of the buttons :<br>
    President, GnS, SnT, MnC, AnC or Senator.
 2) REGISTERING VOTERS : The Admin authorises every voter entering his ethereum address and by tapping the ‘Register Voter’ button.<br>
 
-# ROLE OF VOTER :
+## ROLE OF VOTER :
 1) LOGIN : The Voter logins using his ethereum address and secret key.<br>
 2) VOTE : The Voter can see a list of candidates who have nominated for the election.<br>
           • On first tap on the ‘VOTE’ button in  a particular category, the candidate gets 5 points.<br>
@@ -45,7 +45,7 @@ It is divided in three main Pages:
             After that no vote gets casted even after tapping multiple times.
 
 
-# RESULT :
+## RESULT :
 If the election is not over, 'ELECTION IS STILL LIVE' is shown on RESULT PAGE.<br>
 If the election is over, the entire result is shown on RESULT PAGE.<br>
 

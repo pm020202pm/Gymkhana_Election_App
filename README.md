@@ -7,6 +7,19 @@ CONTRACT ADDRESS : 0x6C273846607DC4207eFd288485149DfB9e873f90
 
 Secret Key : ee624a25f6a4884081083d1da2bea3f6847b5805f47dd1c035688acbab1fedd2
 
+----------------------------------------------------------------------------------
+For dummy results of an election already conducted, use following credentials : 
+
+Admin Login : 
+Contract Address : 0x5DB13e21b4e83adB4a9feF0Ca167D3809625a847
+Secret Key : ee624a25f6a4884081083d1da2bea3f6847b5805f47dd1c035688acbab1fedd2
+
+Voter Login : 
+Address : 0x738Ad2E7b1a5808963d1bAFbdB591D82BA23532C
+Secret Key : 15e361fcee9d2c66573684d4f10efcb75aee54cf7db2c646d4d94412ca662f77
+
+-----------------------------------------------------------------------------------
+
 
 <br>
 <br>

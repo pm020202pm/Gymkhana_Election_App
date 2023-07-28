@@ -2,6 +2,7 @@
 
 APP DOWNLOAD URL :
 https://drive.google.com/file/d/1BL-zyCnx7NKN8Cw1Ru5dQhk2ivOhRXrJ/view?usp=sharing
+![votew](https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/43d2e449-e99d-403c-a66f-c4e1f421372b)
 
 CONTRACT ADDRESS : 0x6C273846607DC4207eFd288485149DfB9e873f90
 

@@ -15,10 +15,10 @@ It is divided in three main Pages:
 
 
 ### 2) VOTER PAGE
-• The voter logins using his ethereum address and secret key.
-• The voter is provided with a dashboard, where he can seethe number of candidates in every category.
-• The voter can touch the ‘VOTE’ button to cast his vote to the candidate.
-• The voter can also see the total number of votes casted till that time from overall voters.
+• The voter logins using his ethereum address and secret key. <br>
+• The voter is provided with a dashboard, where he can seethe number of candidates in every category.<br>
+• The voter can touch the ‘VOTE’ button to cast his vote to the candidate.<br>
+• The voter can also see the total number of votes casted till that time from overall voters.<br>
 
 
 ### 3) RESULT PAGE

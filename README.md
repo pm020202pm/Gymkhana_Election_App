@@ -2,7 +2,63 @@
 
 A new Flutter project.
 
-## Getting Started
+## USER INTERFACE
+The User Interface is simple  and easy to navigate.
+It is divided in three main Pages:
+
+# 1) ADMIN PAGE
+• The admin decides the duration of election by specifying time in minutes.
+• The admin adds candidates and voters.
+• The admin also authorises the voters by adding them to the voter's list.
+
+
+# 2) VOTER PAGE
+• The voter logins using his ethereum address and secret key.
+• The voter is provided with a dashboard, where he can seethe number of candidates in every category.
+• The voter can touch the ‘VOTE’ button to cast his vote to the candidate.
+• The voter can also see the total number of votes casted till that time from overall voters.
+
+
+# 3) RESULT PAGE
+• The result page gives information about winners from every category. 
+• It also provides the number of points that the winner has got. 
+• To show the winner list of Senators, they are shown in a list that is sorted in descending order of their points.
+
+
+
+## STEP BY STEP GUIDE TO CONDUCT GYMKHANA ELECTION
+
+# ROLE OF ADMIN :
+1) START ELECTION : The Admin gives a name and duration of the election.
+3) REGISTERING CANDIDATES : The Admin registers every candidate writing his name and then tapping on either of the buttons :
+   President, GnS, SnT, MnC, AnC or Senator.
+2) REGISTERING VOTERS : The Admin authorises every voter entering his ethereum address and by tapping the ‘Register Voter’ button.
+
+# ROLE OF VOTER :
+1) LOGIN : The Voter logins using his ethereum address and secret key.
+2) VOTE : The Voter can see a list of candidates who have nominated for the election.
+          • On first tap on the ‘VOTE’ button in  a particular category, the candidate gets 5 points.
+          • On the second tap on the ‘VOTE’ button in the same category, the candidate gets 3 points.
+          • On the third tap on the ‘VOTE’ button in the same category, the candidate gets 1 points.
+            After that no vote gets casted even after tapping multiple times.
+
+
+# RESULT :
+If the election is not over, 'ELECTION IS STILL LIVE' is shown on RESULT PAGE.
+If the election is over, the entire result is shown on RESULT PAGE.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This project is a starting point for a Flutter application.
 

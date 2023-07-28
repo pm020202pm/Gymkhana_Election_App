@@ -1,17 +1,17 @@
 # gymkhana
 
 A new Flutter project.
-
-
-
+<br>
+<br>
+<br>
 ## USER INTERFACE
-The User Interface is simple  and easy to navigate.
+The User Interface is simple  and easy to navigate.<br>
 It is divided in three main Pages:
 
 ### 1) ADMIN PAGE
-• The admin decides the duration of election by specifying time in minutes.
-• The admin adds candidates and voters.
-• The admin also authorises the voters by adding them to the voter's list.
+• The admin decides the duration of election by specifying time in minutes.<br>
+• The admin adds candidates and voters.<br>
+• The admin also authorises the voters by adding them to the voter's list.<br>
 
 
 ### 2) VOTER PAGE

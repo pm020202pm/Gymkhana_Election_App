@@ -8,7 +8,6 @@ CONTRACT ADDRESS : 0x6C273846607DC4207eFd288485149DfB9e873f90
 Secret Key : ee624a25f6a4884081083d1da2bea3f6847b5805f47dd1c035688acbab1fedd2
 
 
-A new Flutter project.
 <br>
 <br>
 <br>

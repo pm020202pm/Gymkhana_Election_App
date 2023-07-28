@@ -24,25 +24,25 @@ Secret Key : 15e361fcee9d2c66573684d4f10efcb75aee54cf7db2c646d4d94412ca662f77 <b
 
 
 
-<br>![Screenshot_2023-07-28-18-53-47-65_3c1cb7c2444720c41d76e6591f687183](https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/31f1245f-89c5-43f8-aff7-59aedbf5e411)
 
-<br>
 <br>
 
 ## USER INTERFACE
 The User Interface is simple  and easy to navigate.<br>
 It is divided in three main Pages:
 
+
 <img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/31f1245f-89c5-43f8-aff7-59aedbf5e411" width="18%" height="18%">
-<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/168d801f-c338-47f0-8379-d42fff0cec5a" width="18%" height="18%">
-<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/dba1ac46-cbe8-4825-9234-f31d4e7bca11" width="18%" height="18%">
+<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/af205003-22c5-4c8c-b7bc-1783c68ed082" width="18%" height="18%">
+<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/57b59fcc-aa93-4097-8017-e1ee6528efbd" width="18%" height="18%">
 
-<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/01431625-d9bc-416e-bf8c-7a54c6bbd17b" width="18%" height="18%">
+<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/7b8f44f2-9b6d-4711-8748-d1f18e82df4c" width="18%" height="18%">
 
-<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/38900a9e-e9c7-4ce5-8441-f4cb06f4c874" width="18%" height="18%">
-<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/afb4a5e8-28bf-49f3-b9e2-7d29da2b9069" width="18%" height="18%">
-<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/2f4148f9-2603-4339-8728-8708f739d81f" width="18%" height="18%">
-<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/b0ade89a-910b-4863-bda4-f6aace980c74" width="18%" height="18%">
+<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/3dae0ae4-3099-4ff0-8a91-b79c002d18c7" width="18%" height="18%">
+<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/eb8e6555-56ca-45cc-b8fc-51c33298fc07" width="18%" height="18%">
+<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/7c09440f-3c0f-4d37-92b0-9eefcaa9090c" width="18%" height="18%">
+<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/fdcfa338-2eb8-4120-a140-3011187fcaa9" width="18%" height="18%">
+
 
 
 

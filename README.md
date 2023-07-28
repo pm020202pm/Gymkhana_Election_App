@@ -32,17 +32,16 @@ It is divided in three main Pages:
 
 <img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/2f4148f9-2603-4339-8728-8708f739d81f" width="25%" height="25%">
 <img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/b0ade89a-910b-4863-bda4-f6aace980c74" width="25%" height="25%">
-![Screenshot_2023-07-28-18-56-34-99_3c1cb7c2444720c41d76e6591f687183](https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/2f4148f9-2603-4339-8728-8708f739d81f)
-![Screenshot_2023-07-28-18-56-24-57_3c1cb7c2444720c41d76e6591f687183](https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/b0ade89a-910b-4863-bda4-f6aace980c74)
-![Screenshot_2023-07-28-18-55-59-60_3c1cb7c2444720c41d76e6591f687183](https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/f9f7cd00-0c1a-4986-ac6f-ca8a0b759148)
-![Screenshot_2023-07-28-18-55-54-17_3c1cb7c2444720c41d76e6591f687183](https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/afb4a5e8-28bf-49f3-b9e2-7d29da2b9069)
-![Screenshot_2023-07-28-18-55-41-05_3c1cb7c2444720c41d76e6591f687183](https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/38900a9e-e9c7-4ce5-8441-f4cb06f4c874)
-![Screenshot_2023-07-28-18-55-14-15_3c1cb7c2444720c41d76e6591f687183](https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/01431625-d9bc-416e-bf8c-7a54c6bbd17b)
-![Screenshot_2023-07-28-18-54-50-59_3c1cb7c2444720c41d76e6591f687183](https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/22a96403-5761-423c-899e-32112becf5da)
-![Screenshot_2023-07-28-18-54-43-95_3c1cb7c2444720c41d76e6591f687183](https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/635d9bae-53f1-4546-811f-88ab38e4abee)
-![Screenshot_2023-07-28-18-54-34-90_3c1cb7c2444720c41d76e6591f687183](https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/dba1ac46-cbe8-4825-9234-f31d4e7bca11)
-![Screenshot_2023-07-28-18-53-52-90_3c1cb7c2444720c41d76e6591f687183](https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/168d801f-c338-47f0-8379-d42fff0cec5a)
-![Screenshot_2023-07-28-18-53-47-65_3c1cb7c2444720c41d76e6591f687183](https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/34ce1233-1196-4f29-97b3-3c403e6b279b)
+<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/f9f7cd00-0c1a-4986-ac6f-ca8a0b759148" width="25%" height="25%">
+<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/afb4a5e8-28bf-49f3-b9e2-7d29da2b9069" width="25%" height="25%">
+<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/38900a9e-e9c7-4ce5-8441-f4cb06f4c874" width="25%" height="25%">
+<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/01431625-d9bc-416e-bf8c-7a54c6bbd17b" width="25%" height="25%">
+<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/22a96403-5761-423c-899e-32112becf5da" width="25%" height="25%">
+<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/635d9bae-53f1-4546-811f-88ab38e4abee" width="25%" height="25%">
+<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/dba1ac46-cbe8-4825-9234-f31d4e7bca11" width="25%" height="25%">
+<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/168d801f-c338-47f0-8379-d42fff0cec5a" width="25%" height="25%">
+<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/34ce1233-1196-4f29-97b3-3c403e6b279b" width="25%" height="25%">
+
 
 
 ### 1) ADMIN PAGE

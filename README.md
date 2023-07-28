@@ -6,20 +6,20 @@ A new Flutter project.
 The User Interface is simple  and easy to navigate.
 It is divided in three main Pages:
 
-# 1) ADMIN PAGE
+### 1) ADMIN PAGE
 • The admin decides the duration of election by specifying time in minutes.
 • The admin adds candidates and voters.
 • The admin also authorises the voters by adding them to the voter's list.
 
 
-# 2) VOTER PAGE
+### 2) VOTER PAGE
 • The voter logins using his ethereum address and secret key.
 • The voter is provided with a dashboard, where he can seethe number of candidates in every category.
 • The voter can touch the ‘VOTE’ button to cast his vote to the candidate.
 • The voter can also see the total number of votes casted till that time from overall voters.
 
 
-# 3) RESULT PAGE
+### 3) RESULT PAGE
 • The result page gives information about winners from every category. 
 • It also provides the number of points that the winner has got. 
 • To show the winner list of Senators, they are shown in a list that is sorted in descending order of their points.

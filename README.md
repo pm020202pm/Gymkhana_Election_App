@@ -24,7 +24,8 @@ Secret Key : 15e361fcee9d2c66573684d4f10efcb75aee54cf7db2c646d4d94412ca662f77 <b
 
 
 
-<br>
+<br>![Screenshot_2023-07-28-18-53-47-65_3c1cb7c2444720c41d76e6591f687183](https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/31f1245f-89c5-43f8-aff7-59aedbf5e411)
+
 <br>
 <br>
 
@@ -32,7 +33,7 @@ Secret Key : 15e361fcee9d2c66573684d4f10efcb75aee54cf7db2c646d4d94412ca662f77 <b
 The User Interface is simple  and easy to navigate.<br>
 It is divided in three main Pages:
 
-<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/34ce1233-1196-4f29-97b3-3c403e6b279b" width="18%" height="18%">
+<img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/31f1245f-89c5-43f8-aff7-59aedbf5e411" width="18%" height="18%">
 <img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/168d801f-c338-47f0-8379-d42fff0cec5a" width="18%" height="18%">
 <img src="https://github.com/pm020202pm/Gymkhana_Election_App/assets/113714135/dba1ac46-cbe8-4825-9234-f31d4e7bca11" width="18%" height="18%">
 

@@ -1,7 +1,7 @@
 # Gymkhana Election App
 
 APP DOWNLOAD URL :
-https://drive.google.com/file/d/1BL-zyCnx7NKN8Cw1Ru5dQhk2ivOhRXrJ/view?usp=sharing
+[https://drive.google.com/file/d/1BL-zyCnx7NKN8Cw1Ru5dQhk2ivOhRXrJ/view?usp=sharing](https://drive.google.com/drive/folders/16ma_clbKQNp_EEj4X3WTMnNiYbhJd0XF?usp=sharing)
 
 CONTRACT ADDRESS : 0x6C273846607DC4207eFd288485149DfB9e873f90
 
